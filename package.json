@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-garagedoor-esp8266",
+  "name": "homebridge-garage-esp8266",
   "version": "1.0.0",
   "description": "Exposes a garage door accessory to HomeBridge using an ESP8266 to control the opener.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "keywords": [
     "homebridge-plugin",
-    "homebridge",
+    "esp8266",
     "garagedoor"
   ],
   "author": "Will St. Onge <ongewill@gmail.com>",
@@ -25,5 +25,7 @@
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
