@@ -48,6 +48,10 @@ GarageDoorESP8266.prototype =
         return "CLOSED";
       case DoorState.STOPPED:
         return "STOPPED";
+      case DoorState.CLOSING:
+        return "CLOSING";
+      case DoorState.OPENING:
+        return "OPENING";
       default:
         return "UNKNOWN";
     }
