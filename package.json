@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-garage-esp8266",
+  "name": "homebridge-garage-arduino-esp",
   "version": "1.0.0",
   "description": "Exposes a garage door accessory to HomeBridge using an ESP8266 to control the opener.",
   "main": "index.js",
